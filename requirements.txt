@@ -70,4 +70,4 @@ zstandard==0.23.0
 flask
 pypdf
 chunking
-mergemergePdf
+mergePdf
