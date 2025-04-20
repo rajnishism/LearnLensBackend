@@ -26,7 +26,7 @@ numpy
 scikit-learn 
 
 # Backend
-flaskannotated-types==0.7.0
+
 anyio==4.9.0
 certifi==2025.1.31
 chardet==5.2.0
