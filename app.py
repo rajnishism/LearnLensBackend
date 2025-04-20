@@ -5,7 +5,7 @@ from Video import generate_pdf_from_youtube_video
 from Playlist import generate_playlist_summary # Your existing functions
 
 app = Flask(__name__)
-CORS(app)  # 🔥 Enables CORS for all routes
+
 # Define where your PDFs will be stored
 
 
