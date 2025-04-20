@@ -1,13 +1,16 @@
 from YoutubePlaylist import get_video_ids_from_playlist
 from Video import generate_pdf_from_youtube_video
 from pypdf import PdfMerger
-
+from dotenv import load_dotenv
 from mergePdf import merge_pdfs
-API_KEY = "AIzaSyBaNlWbmPkJW02RDcpszdwYMM3LtZNGGE0"
+load_dotenv()
+import os
+
+GOOGLE_API_KEY= os.getenv("GOOGLE_API_KEY")
 
 def generate_playlist_summary(playlist_id):
         
-        video_ids = get_video_ids_from_playlist(playlist_id, API_KEY)
+        video_ids = get_video_ids_from_playlist(playlist_id, GOOGLE_API_KEY)
         filenames=[]
         print("Number of Videos in the playlist")
         print(len(video_ids))
