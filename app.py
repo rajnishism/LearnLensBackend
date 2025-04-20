@@ -38,4 +38,5 @@ def get_playlist_summary(playlist_id):
     return send_file(pdf_path, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 6000))  # Get port from environment, fallback to 5000 for local testing
+    app.run(host='0.0.0.0', port=5001)
