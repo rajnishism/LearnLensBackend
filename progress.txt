@@ -1,0 +1,28 @@
+Plan Of Action :
+
+PlanA:
+1. Fetch the Transcript with API 
+	i. Fetch as String when Language is Known ✅
+	ii. If English Transcript is not Available.
+	iii. If the Caption is not Available.
+2. Summarise ✅
+	i. Summary of the video ✅
+		a. Separate Chunks 
+		b. Summary of each chunks together 
+	ii. Important Keywords(Topics) discussed in the video
+	iii. Generate Practice Question of Different Kind (MCQ, ShortAnswer,Coding, Maths) with answe
+3. Do the same for Playlist ✅
+4. Generate Book For the Playlist
+	i. CoverPage
+	ii. Index Page
+	iii. With Proper Layouts
+5. FrontEnd and Backend ✅
+	i. SignUp and SignIn using Google
+	ii. Save all the Previous Books/ Video in their Account
+
+PlanB: Instead of Using Book Format use the Web Based Interactive Interface 
+
+
+USP: Works with Any Language and convert it into English
+
+
