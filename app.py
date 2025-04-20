@@ -1,6 +1,6 @@
 from flask import Flask, send_file, abort
 import os
-from flask_cors import CORS
+
 from Video import generate_pdf_from_youtube_video 
 from Playlist import generate_playlist_summary # Your existing functions
 
