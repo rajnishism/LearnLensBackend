@@ -1,6 +1,6 @@
 import tiktoken
 
-def chunk_string_by_tokens(text, max_tokens=16000, model_name="gpt-3.5-turbo-1106"):
+def chunk_string_by_tokens(text, max_tokens=12000, model_name="gpt-3.5-turbo-1106"):
     encoding = tiktoken.encoding_for_model(model_name)
     tokens = encoding.encode(text)
 

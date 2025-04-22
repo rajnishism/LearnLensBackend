@@ -71,3 +71,4 @@ flask
 pypdf
 chunking
 mergePdf
+yt-dlp

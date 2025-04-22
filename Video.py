@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 from PdfGenerator import PDFGeneratorReportLab
-from YoutubeTranscript import get_transcript_from_youtube
+from yt_dlp import get_transcript_from_youtube
 from chunking import chunk_string_by_tokens
 import os
 
@@ -33,7 +33,7 @@ class SummaryData(TypedDict):
 # Main function
 def generate_pdf_from_youtube_video(video_id: str, lectureNo=1):
     # Initialize model with schema
-    model = ChatOpenAI(model='gpt-3.5-turbo-1106', max_tokens=3000, api_key=os.getenv("OPENAI_API_KEY")  )
+    model = ChatOpenAI(model='gpt-3.5-turbo-1106', max_tokens=4000 )
     #structured_model = model.with_structured_output(SummaryData)
 
     # Get transcript from YouTube
