@@ -18,11 +18,18 @@ PlanA:
 	iii. With Proper Layouts
 5. FrontEnd and Backend ✅
 	i. SignUp and SignIn using Google
-	ii. Save all the Previous Books/ Video in their Account
+	ii. Save all the Previous Books/ Video in Common Account ✅
 
 PlanB: Instead of Using Book Format use the Web Based Interactive Interface 
 
 
 USP: Works with Any Language and convert it into English
+------------------------------------------------------------------------------------------------
+[Deployment Issues]
 
+	1. Hosted the Backend on Render-> When Render calls the Youtube Api for transcript -> Youtube refuse to send the transcript saying Too many request from the server. Actually Youtbe blocks all the request from render.com
+
+	2. Paid the GPT Model (5 $ )
+	3.Built the frontend but not yet deployed.
+	
 

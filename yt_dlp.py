@@ -11,6 +11,7 @@ def get_transcript_from_youtube(video_id):
             "yt-dlp",
             "--write-auto-sub",
             "--sub-lang", "en",
+            "--sub-lang", "hi",
             "--skip-download",
             "-o", f"{video_id}.%(ext)s",
             url
