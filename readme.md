@@ -45,7 +45,7 @@ A fullstack AI-powered tool that extracts YouTube lecture transcripts, summarize
 
 | Home Page                                | Summary & Quiz View                           |
 | ---------------------------------------- | --------------------------------------------- |
-| ![Home Screenshot](Screenshots/home.png) | ![Results Screenshot](Screenshots/Result.png) |
+| ![Home Screenshot](ScreenShots/home.png) | ![Results Screenshot](ScreenShots/Result.png) |
 
 ---
 
